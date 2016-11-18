@@ -1,0 +1,7 @@
+services:
+
+    domain.events.publisher:
+        class: MR\DoctrineDomainEventsBundle\EventBus\DomainEventsPublisher
+        arguments:
+            - "@simple_bus.doctrine_orm_bridge.collects_events_from_entities"
+            - "@event_bus"
