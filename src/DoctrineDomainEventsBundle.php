@@ -1,6 +1,6 @@
 <?php
 
-namespace MR\DoctrineDomainEventsBundle\DependencyInjection;
+namespace MR\DoctrineDomainEventsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
