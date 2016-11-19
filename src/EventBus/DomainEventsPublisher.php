@@ -17,7 +17,7 @@ class DomainEventsPublisher
         $this->recordedMessages = $recordedMessages;
     }
 
-    public function send()
+    public function publishEvents()
     {
         $messages = $this->recordedMessages->recordedMessages();
 
