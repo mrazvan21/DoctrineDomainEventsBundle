@@ -5,7 +5,7 @@ namespace MR\DoctrineDomainEventsBundle\EventBus;
 use SimpleBus\Message\Recorder\ContainsRecordedMessages;
 use SimpleBus\Message\Bus\MessageBus;
 
-class SendEntityEventsAtEventBus
+class DomainEventsPublisher
 {
     private $eventBus;
 
