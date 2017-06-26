@@ -7,3 +7,4 @@ services:
             - "@simple_bus.doctrine_orm_bridge.collects_events_from_entities"
         tags:
             -  { name: kernel.event_listener, event: kernel.response, method: publishEvents }
+            -  { name: kernel.event_listener, event: console.terminate, method: publishEvents }
